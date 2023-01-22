@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User Logout</description>
+   <name>LoginPage_3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10573941-93b5-455d-881a-3296afd499a1</testCaseGuid>
+</TestCaseEntity>

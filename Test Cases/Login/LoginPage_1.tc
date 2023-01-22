@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check Contain of page available</description>
+   <name>LoginPage_1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e72cbfe4-ad1b-4174-a8d5-931b3e603225</testCaseGuid>
+</TestCaseEntity>
