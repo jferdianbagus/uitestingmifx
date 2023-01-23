@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Invoice</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>875f63ee-bb0b-4b55-ac3d-736970d8bb2c</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName></driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password></password>
+   <query>SELECT 
+`transaction`.`trx_id`,
+`wholesaler`.`name`,
+`courier`.`courier_service_name`,
+`transaction`.`date_order`
+ FROM `transaction`
+JOIN `wholesaler`
+  ON `transaction`.`wholesaler_id` = `wholesaler`.`id`
+JOIN `courier`
+  ON `wholesaler`.`courierservice_id` = `courier`.`id`
+WHERE `wholesaler`.`id` = 2</query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <user></user>
+   <usingGlobalDBSetting>true</usingGlobalDBSetting>
+</DataFileEntity>
